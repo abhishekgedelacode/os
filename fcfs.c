@@ -11,7 +11,7 @@ int main()
     scanf("%d", &n);
     for (i = 0; i < n; i++)
     {
-        printf("Enter pId, arrTime, burstTime:\n[%d]: ", i + 1);
+        printf("Enter pId, arTime, burstTime:\n[%d]: ", i + 1);
         scanf("%d %d %d", &pId[i], &arTime[i], &bTime[i]);
     }
 
