@@ -11,7 +11,7 @@ int main()
     scanf("%d %d", &n, &qntm);
     printf("Enter process no and service time: ");
     for (i = 0; i < n; i++)
-        scanf("%d %d", pId[i], srTime[i]);
+        scanf("%d %d", &pId[i], &srTime[i]);
 
     for (i = 0; i < n; i++)
         b[i] = srTime[i];
